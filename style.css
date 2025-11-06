@@ -1,0 +1,44 @@
+
+
+
+
+body {
+    background-image: url(classic.jpg);
+    background-size: cover;                  /* Make the image cover the whole page */
+    background-repeat: no-repeat;            /* Prevent repeating */
+    background-position: center center;      /* Center the image */
+
+
+
+
+}
+
+
+
+form {
+    /* background-color:#90EE90; */
+    color: #000000;
+    border-radius: 15px;
+    padding: 20px;
+    opacity: 0.8;
+    
+    
+    
+}
+
+
+input, select, textarea {
+    border-radius: 8px; /* Rounded corners for input boxes */
+    padding: 5px;
+    /* border: 1px solid #ccc; */
+} 
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+input:hover, select:hover, textarea:hover, button:hover {
+    border-color: red;
+}
